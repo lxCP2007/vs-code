@@ -64,3 +64,6 @@ Control de verciones:
         -Para crear una desde 0 se puede clickear en el icono de tres puntos (Más aciones) que se encuentra en alado de "SOURSE CONTROL", en la parte superior de del meú de la herramienta de control de verciones, dentro de este se busca la opción de "Branch" y dentro de ella la opción de "create branch" 
         
         -El indicador de la ubicacón del repositorio en la que nos encontramos trabajando, se encuentra en la barra de estado en la esquina inferior izquierda de la pantalla, clickeandolo despliega un listado de las ramas del repositorio, tambien permite crear una nueva rama de forma rapida.
+
+    Pasar los datos de un rama al Master:
+        -Se clickea el indicador de ubicación git, nos movemos al master y en este clickeamos el icono de tres puntos del menú del control de verciones, buscamos la opcion "Branch" y luego la que se llama "Merge Branch", se seleciona la rama deseada y con esto el se pueden visualizar los cambios en master, para confirmar los cambios clickeamos Sync changes y de esa forma se junta una rama co el master 

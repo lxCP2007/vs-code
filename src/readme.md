@@ -66,4 +66,17 @@ Control de verciones:
         -El indicador de la ubicacón del repositorio en la que nos encontramos trabajando, se encuentra en la barra de estado en la esquina inferior izquierda de la pantalla, clickeandolo despliega un listado de las ramas del repositorio, tambien permite crear una nueva rama de forma rapida.
 
     Pasar los datos de un rama al Master:
-        -Se clickea el indicador de ubicación git, nos movemos al master y en este clickeamos el icono de tres puntos del menú del control de verciones, buscamos la opcion "Branch" y luego la que se llama "Merge Branch", se seleciona la rama deseada y con esto el se pueden visualizar los cambios en master, para confirmar los cambios clickeamos Sync changes y de esa forma se junta una rama co el master 
+        -Se clickea el indicador de ubicación git.
+
+        -Nos movemos al master y en este clickeamos el icono de tres puntos del menú del control de verciones, 
+
+        -Buscamos la opcion "Branch" y luego la que se llama "Merge Branch", se seleciona la rama deseada y con esto el se pueden visualizar los cambios en master.
+
+        -Para confirmar los cambios clickeamos Sync changes y de esa forma se junta una rama co el master 
+
+    Borrar una Rama:
+        -Se clickea el icono de tres puntos de menú control de verciones
+
+        -Buscamos la opcion "Branch" y luego la llamada "Delet Branch", esto procede a mostrar las ramas existentes 
+
+        -Seleccionamos y borramos la rama deseada.

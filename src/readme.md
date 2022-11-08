@@ -55,4 +55,12 @@ Control de verciones:
         -Discard Changes:
             Es la segunda herramienta y es para descargar los cambios del archivo
         -Stages:
-        Es la tercera herrramienta, tiene el icono de una cruz, se usa para selecionar los documentos cuyos cambios se enviaran en el commit
+        Es la tercera herrramienta, tiene el icono de una cruz, se usa para selecionar los documentos cuyos cambios se enviaran en el commit 
+        
+    Usar Git desde Vs code:
+        -Subir un repositorio GitHub:
+            despues de selecionados los cambios y archivos que se enviaran en el summit, e iniciada la seción y configurado git, se unde en publish Branch para enviar los archivos al GitHub.
+    Crear una rama in GitHub:
+        -Para crear una desde 0 se puede clickear en el icono de tres puntos (Más aciones) que se encuentra en alado de "SOURSE CONTROL", en la parte superior de del meú de la herramienta de control de verciones, dentro de este se busca la opción de "Branch" y dentro de ella la opción de "create branch" 
+        
+        -El indicador de la ubicacón del repositorio en la que nos encontramos trabajando, se encuentra en la barra de estado en la esquina inferior izquierda de la pantalla, clickeandolo despliega un listado de las ramas del repositorio, tambien permite crear una nueva rama de forma rapida.

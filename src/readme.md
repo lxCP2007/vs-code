@@ -80,3 +80,48 @@ Control de verciones:
         -Buscamos la opcion "Branch" y luego la llamada "Delet Branch", esto procede a mostrar las ramas existentes 
 
         -Seleccionamos y borramos la rama deseada.
+
+Depurador:
+    Iniciarlo:
+        -Se clickea en el cuarto icono de la barra de actividades
+
+        -Precionamos el boton que de inicio (Run and Debug),
+
+        -Selecionamos el navegador con el que haremos el testeo, y el depurador empezara a ejecutar el codigo, para que todo se lleve a cabo adecuadamente, al momento de activarlo se tiene que estar dentro del archivo HTML correspondiente al codigo que deseamos ejecutar, ya que de lo contrario no se visualizara nada
+
+        -Herramientas de control:
+            En el lateral izquierdo se visualizaran todos las varibles, constantes y funciones locales, globales y del scrypt con las que estemos interactuando
+
+            Para desplegar la consola es necesario clickear el segundo icono de la esquina superior derecha de la pantalla (toggle panel), este icono muestra un cuadrado sobre un rectangulo
+
+            Es posible agragar un break point, es decir cliqueando a la izquierda del numero de linea se puede marcar un punto el cual pausara el depurador al llegar a esa linea, 
+
+            Tambien se desplegara un menu de erramientas el cual contiene: 
+                +Boton de play y pause
+                +Step Over: este boton salta a la linea siguente y ejecuta el codigo de esta
+                +Step Into: Si se esta ejecutando una función este boton se mete en ella para poder depurarla linea por linea 
+                +Step Out: En caso de terminar o querer detener la depuración de la función se utiliza este boton
+                +Boton Retry
+                +Boton de Stop:  detiene el depurador 
+
+Extencuones:
+    Para descargarlas se clickea en el quito icono de la barra de actividades, esto despliega una lista de extenciones, así como un buscador para encontrar cualquier extención disponible
+
+    Para cambiar los temas se unde Ctrl+Shif+p, lo que despliega un menu de configuraciones, el cual posee un buscador, en el cual se buca "theme" y en el resultado llamado "preferences:color theme" se despliegan todas las opciones de temas para vs Code
+
+Atajos de teclado:
+    1-La tecla "Fin": al undir esta tecla el cursor se movera al final de la linea en la que este ubicado
+    2-Tecla "Inicio": Mueve el cursor al principio de la linea en la que se encuentre en ese momento
+    3-Alt+flechas superior e inferior: Hace que se puede desplazar hacia arriba o hacia abajo la linea completa
+    4-Ctrl+flechas laterales: El cursor se desplaza de palabra en palabra a lo largo de la linea
+    5-Ctrl+flechas superior e inferior sube o baja la pantalla a lo largo del archivo
+    6-Shift+flechas laterales: de esta forma se puede ir selecionando texto seguún abanza el cursor
+    7-Shift+Flechas superior e inferior: seleciona lineas completas
+    8-tab: añade cuatro espacios a la vez 
+     9-shift+Tab: Hara un Tab pero hacia la izquierda 
+    10-Ctrl+ç: abre un comentario del lenguaje que se este usando forma automatíca
+    11-Ctrl+"+": añade un acercamiento a la pantalla
+    12-Ctrl+"-": Aleja la pantalla
+
+
+    quede en los snippets personalizados min 48:50

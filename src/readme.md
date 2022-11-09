@@ -122,6 +122,11 @@ Atajos de teclado:
     10-Ctrl+ç: abre un comentario del lenguaje que se este usando forma automatíca
     11-Ctrl+"+": añade un acercamiento a la pantalla
     12-Ctrl+"-": Aleja la pantalla
+    13-Ctrl+z: deshacer el ultimo cambioç
+    14-Ctrl+Espacio:Muestra las sugerencias de autocompletado
+    15-Ctl+shift+p: habre el menú de cofiguracón
 
-
-    quede en los snippets personalizados min 48:50
+Snippets:
+    -Clickeamos en el icono de configuracón que se encuentra en el costado inferior izquierdo, selecionamos la opción llamda "Configure User Snippets".
+    -Se define el si el snippets sera global u unicamente aplicara para el proyecto
+    -Otra opción es la de escribir el leguaje en el cuadro texto, se selecionar el resultado

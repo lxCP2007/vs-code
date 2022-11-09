@@ -104,10 +104,14 @@ Depurador:
                 +Boton Retry
                 +Boton de Stop:  detiene el depurador 
 
-Extencuones:
+Extenciones:
     Para descargarlas se clickea en el quito icono de la barra de actividades, esto despliega una lista de extenciones, así como un buscador para encontrar cualquier extención disponible
 
     Para cambiar los temas se unde Ctrl+Shif+p, lo que despliega un menu de configuraciones, el cual posee un buscador, en el cual se buca "theme" y en el resultado llamado "preferences:color theme" se despliegan todas las opciones de temas para vs Code
+
+
+
+******************************************************* Otros ******************************************************
 
 Atajos de teclado:
     1-La tecla "Fin": al undir esta tecla el cursor se movera al final de la linea en la que este ubicado
@@ -124,9 +128,42 @@ Atajos de teclado:
     12-Ctrl+"-": Aleja la pantalla
     13-Ctrl+z: deshacer el ultimo cambioç
     14-Ctrl+Espacio:Muestra las sugerencias de autocompletado
-    15-Ctl+shift+p: habre el menú de cofiguracón
+    15-Ctrl+shift+p: habre la paleta de comandos,  sepuede realizar buscaqueda de cualquier funcionalidad de vs code de forma rapida, configuracion etc.
+    16-Ctrl+p: despliega un buscador de archivos del proyecto, muestra los recientes y busca por nombre
+    17-Ctrl+b: retrae o abre el meú de actividad lateral
+    18-Ctrl+",": abre la configuración de VS Code
+    19-Ctrl+k+p: abre una lista de las pestañas que estan aviertas en este momento 
+    20-Ctrl+shift+E: si el explorador de archivos esta avierto centra el foco del cursor en este, se puede navegar entre los archivos y con espacio se puede previsualizar alguno, para ingresar a alguno es con enter
+    21-Ctrl+W:Cierra la pestaña actual
+    22- A: Si el foco esta en el navegador de arcgivos, con undir la tecla "A" se podra crear un nuevo archivo
+    23-Ctrl+Ñ: Abre y cerra el terminal
 
-Snippets:
-    -Clickeamos en el icono de configuracón que se encuentra en el costado inferior izquierdo, selecionamos la opción llamda "Configure User Snippets".
-    -Se define el si el snippets sera global u unicamente aplicara para el proyecto
-    -Otra opción es la de escribir el leguaje en el cuadro texto, se selecionar el resultado
+Snippets (atajos de teclado para codigos):
+    1-Clickeamos en el icono de configuracón que se encuentra en el costado inferior izquierdo, selecionamos la opción llamda "Configure User Snippets".
+    2-Se define el si el snippets sera global u unicamente aplicara para el proyecto
+    3-Otra opción es la de escribir el leguaje en el cuadro texto, se selecionar y de esa forma se abrira el archivo en el que se registraran todos los snippets que aplicaran a ese lenguaje 
+    4-El formato de codigo es el siguiente:
+
+            "Print to console":{//esta es la refencia que se da el snipper en el autocompletado
+		"prefix": "log", // prefix son los caracteres que dispararan al snippets
+		"body": [//Es el que colocara el snippets en el codigo al ejecutarse 
+			"console.log('$1');",// el simbolo de dolar sigifica la posicion del cursor al ejecutarse
+			"$2" // esta es la segunda posicion, el numero corrsponde al numero de posocion 
+		], //nota, para saltar a la sigiente posocion establecida es undiendo "tab"
+		"description": "Log output to console" //descripcion del snippets
+	}
+}   
+    5-Seguardan los cambios hechos en el archivo y de ese modo se acrtiva el Snippets
+    6-De ese modo se pueden creear todos los snippets que sean necesarios
+    7-Tambien se pueden descargar extenciones de snippets ya hechos para cualquier lenguaje
+
+Atajos de teclado:
+    1-Se abre el meú de "file" 
+    2-Selecionamos "preferencias"
+    3-selecionamos Keyboard shortcuts 
+    4-O se puede usar el atajo de teclado (Ctrl+k Ctrl+s)
+    5-Se abre el archivo lista de todos los atajos de sistema, aqui se pueden configurar cualquiera de ellos
+    6-Buscamos la acion de la cual se desee designar o cambier un atajo
+    7-Se clickea dos veces en la columna de Keybindibg, luego se presionan la combinacion de teclas deseada y se ingresa con el enter
+    8-Para añadir un condicional al atajo click derecho en la columna de "When" e se seleciona la opción "Change when Expresion" o el atajo (Ctrl+k Ctrl+E)
+    9-en esta configuración es necesario saber como escribir la condional para que el sistema lo entienda, no se puede escribir cualquier cosa
